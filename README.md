@@ -20,6 +20,6 @@ O site conta com diferentes seções, incluindo:
 
 Este projeto foi criado com o objetivo de demonstrar minhas habilidades em HTML, CSS e flexibilidade no uso do CSS Flexbox. Fique à vontade para explorar o código-fonte e o design do site.
 
-Caso tenha alguma sugestão de melhoria ou feedback, por favor, fique à vontade para entrar em contato. Espero que este projeto demonstre minha capacidade de criar websites atraentes e funcionais.
+Caso tenha alguma sugestão de melhoria ou feedback, por favor, fique à vontade para entrar em contato.
 
 ---
