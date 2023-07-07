@@ -1,0 +1,172 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  /* Fonte padrão */
+  body {
+    font-family: 'Open Sans', sans-serif;
+}
+  
+  
+  /* Estilo para links */
+  a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+  /* Container flexível padrão */
+  .flex-container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+  
+  
+  /* Estilo do cabeçalho */
+
+  header {
+    background-color: purple;
+    height: 100px;
+    display: flex;
+    color: aliceblue;
+}
+
+  header .list-items {
+  margin-left: auto;
+}
+
+  .menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+  /* Estilização da primeira secção do site*/
+  #introducao{
+    padding: 80px
+}
+
+  .subtitulo{
+    font-style: italic;
+    
+}
+  .capa img {
+  float: left;
+  margin-left: 150px;
+  width: 85%;
+  height: 100%;
+}
+
+  .titulo2{
+    font-size: large;
+}
+
+  /* Estilo para a seção "Quem Somos" */
+  #quem-somos {
+    background-color: white;
+    padding: 80px ;
+  }
+  
+  #quem-somos h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #quem-somos p {
+    font-size: 20px;
+    line-height: 1.2;
+
+  }
+
+  
+  /* Estilo para a seção "Serviços" */
+  #servicos {
+    background-color: purple;
+    color: white;
+    padding: 40px 0;
+
+  }
+  
+  #servicos h2 {
+    font-size: 25px;
+    margin-top: -25px;
+    
+  }
+  
+  .service-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .service-item div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+  }
+  
+  .service-item img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* Estilo para a seção "Planos" */
+  #planos {
+    background-color: white;
+    padding: 40px 0;
+  }
+  
+  #planos h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .plano .item {
+    border: 5px solid black;
+    margin-right: 5px;
+  }
+  
+  
+  .plano .item ul {
+    list-style-type: disc;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .plano .item ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .plano .item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: purple;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    
+  }
+  
+  .plano .item a:hover {
+    background-color: green;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+  }
+
+  footer .flex-container {
+    justify-content: space-between;
+  }
